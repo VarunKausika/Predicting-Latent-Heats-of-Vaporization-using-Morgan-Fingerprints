@@ -11,7 +11,7 @@ def CIRconvert(ids):
     except:
         return 'Did not work'
 
-df = pd.read_excel('Data.xlsx')
+df = pd.read_excel('Data_raw_IUPAC.xlsx')
 identifiers = df["Molecule name"]
 print(list(identifiers))
 
